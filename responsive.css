@@ -1,0 +1,270 @@
+@media (max-width: 1200px) {
+  .container {
+    max-width: 900px;
+  }
+  .s1content {
+    flex-direction: column;
+    justify-content: center;
+  }
+  .text_div {
+    width: 100%;
+    padding: 80px 0 50px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .text_div p {
+    margin: 0 0 20px;
+  }
+  .image_div {
+    width: 100%;
+    justify-content: center;
+    padding: 0 0 50px;
+  }
+  .s2head {
+    padding: 40px 0 10px;
+  }
+  .s2head p {
+    margin: 0;
+  }
+  .s2cardcontainer {
+    flex-wrap: wrap;
+    /* flex-direction: column; */
+    align-items: center;
+    margin-bottom: 40px;
+  }
+  .card {
+    margin: 40px auto;
+  }
+  .text_hero {
+    padding: 80px 0;
+  }
+  .s4container {
+    margin: 80px auto;
+  }
+  .s4card {
+    margin-bottom: 40px;
+  }
+  .s4text {
+    width: 60%;
+  }
+  .s5content {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    /* border: 1px solid red; */
+  }
+  .s5_text_div > p:first-child {
+    margin: 40px 0 20px;
+  }
+  .s5_text_div p {
+    margin: 0 0 20px;
+  }
+  .link_div {
+    justify-content: center;
+    align-items: center;
+  }
+  .image2_div {
+    width: 100%;
+    justify-content: center;
+    padding: 50px 0;
+  }
+  .s6main {
+    text-align: center;
+  }
+  .s8_main_div {
+    margin: 50px 0;
+  }
+  .s9_main_div {
+    padding: 20px 0 100px;
+  }
+  .s11_maindiv {
+    padding: 50px 0 50px;
+  }
+  footer {
+    display: none;
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    max-width: 700px;
+  }
+  .text_hero {
+    text-align: center;
+  }
+}
+
+@media (max-width: 900px) {
+  .container {
+    max-width: 800px;
+  }
+  .s11_textdiv {
+    width: 60%;
+  }
+}
+
+@media (max-width: 800px) {
+  .container {
+    max-width: 700px;
+  }
+}
+
+@media (max-width: 750px) {
+  .navcontent {
+    padding: 0 20px;
+  }
+  .s7content {
+    flex-direction: column;
+  }
+  .s7_text_div p:first-child {
+    text-align: center;
+  }
+  .s7_text_div {
+    width: 100%;
+    padding: 50px;
+  }
+  .s7_card_div {
+    width: 100%;
+    padding: 20px;
+  }
+}
+
+@media (max-width: 700px) {
+  .container {
+    max-width: 600px;
+  }
+  .s6 {
+    display: none;
+  }
+  .main_div {
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 0;
+  }
+  .sub_div {
+    width: 100%;
+  }
+  .div1 {
+    margin-bottom: 20px;
+  }
+  .s11_maindiv {
+    flex-direction: column;
+    align-items: center;
+  }
+  .s11_imgdiv {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  .s11_textdiv {
+    text-align: center;
+  }
+  .s11_textdiv p:first-child {
+    text-align: center;
+  }
+}
+
+@media (max-width: 600px) {
+  .container {
+    max-width: 500px;
+  }
+  .navlist {
+    display: none;
+  }
+  .navcontent {
+    justify-content: center;
+    height: 56px;
+  }
+  .image2_div img {
+    height: 350px;
+  }
+  .s9_main_div {
+    padding-bottom: 60px;
+  }
+  .s9_text {
+    margin-bottom: 50px;
+  }
+  .s9_card_container {
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  .s9_card {
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 576px) {
+  .image_div img {
+    height: 205px;
+  }
+}
+
+@media (max-width: 500px) {
+  .text_div > p:first-child {
+    font-size: 30px;
+    font-weight: 300;
+  }
+  .text_div p {
+    font-size: 10px;
+    margin: 0 0 30px;
+  }
+  .button_div {
+    padding: 9px 20px;
+    border: 1px solid white;
+    border-radius: 100px;
+  }
+  .button_div a {
+    text-decoration: none;
+    color: white;
+    font-size: 10px;
+  }
+  .s2head {
+    padding: 25px 0;
+    /* border: 1px solid red; */
+  }
+  .s2head p {
+    font-size: 30px;
+  }
+  .s2cardcontainer {
+    margin-bottom: 20px;
+  }
+  .card {
+    margin: 0px auto 10px;
+  }
+  .text_hero {
+    padding: 40px 0;
+  }
+  .text_hero p {
+    font-size: 25px;
+  }
+  .text_hero a {
+    font-size: 25px;
+  }
+  .s5_text_div {
+    width: 80%;
+  }
+  .s5_text_div > p:first-child {
+    margin: 20px 0;
+    font-size: 30px;
+  }
+  .s7content {
+    padding-top: 10px;
+  }
+  .s7_text_div > p:first-child {
+    margin: 0 0 30px;
+    font-size: 30px;
+  }
+  .s8_main_div {
+    margin: 50px 0;
+    padding: 0 20px;
+  }
+  .s8_text > p:first-child {
+    font-size: 30px;
+  }
+  .s9_text {
+    font-size: 30px;
+    margin-bottom: 50px;
+  }
+}

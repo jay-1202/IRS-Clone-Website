@@ -516,6 +516,7 @@ body {
 }
 .s11_maindiv {
   display: flex;
+  justify-content: space-evenly;
   padding: 100px 0 150px;
 }
 .s11_imgdiv {
