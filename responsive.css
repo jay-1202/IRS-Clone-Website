@@ -267,4 +267,22 @@
     font-size: 30px;
     margin-bottom: 50px;
   }
+  .image2_div img {
+    height: 250px;
+  }
+}
+
+@media (max-width: 400px) {
+  .image2_div img {
+    height: 250px;
+  }
+}
+
+@media (max-width: 350px) {
+  .image_div img {
+    height: 150px;
+  }
+    .image2_div img {
+    height: 200px;
+  }
 }
