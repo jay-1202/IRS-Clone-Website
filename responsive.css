@@ -1,6 +1,6 @@
 @media (max-width: 1200px) {
   .container {
-    max-width: 900px;
+    max-width: 1100px;
   }
   .s1content {
     flex-direction: column;
@@ -86,19 +86,36 @@
     display: none;
   }
 }
-
-@media (max-width: 768px) {
+@media (max-width: 1100px) {
   .container {
-    max-width: 700px;
+    max-width: 1000px;
   }
-  .text_hero {
-    text-align: center;
+  .card {
+    padding: 20px 20px 60px 10px;
+  }
+  .card img {
+    width: 60px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .container {
+    max-width: 900px;
+  }
+  .card {
+    padding: 10px 10px 60px 5px;
   }
 }
 
 @media (max-width: 900px) {
   .container {
     max-width: 800px;
+  }
+  .s2cardcontainer {
+    justify-content: center;
+  }
+  .card {
+    margin: 40px 40px 0;
   }
   .s11_textdiv {
     width: 60%;
@@ -112,8 +129,14 @@
 }
 
 @media (max-width: 750px) {
+  .container {
+    max-width: 700px;
+  }
   .navcontent {
     padding: 0 20px;
+  }
+  .text_hero {
+    text-align: center;
   }
   .s7content {
     flex-direction: column;
@@ -134,6 +157,9 @@
 @media (max-width: 700px) {
   .container {
     max-width: 600px;
+  }
+  .card {
+    margin: 20px;
   }
   .s6 {
     display: none;
@@ -177,6 +203,9 @@
     justify-content: center;
     height: 56px;
   }
+  .card {
+    margin: 10px;
+  }
   .image2_div img {
     height: 350px;
   }
@@ -186,18 +215,17 @@
   .s9_text {
     margin-bottom: 50px;
   }
-  .s9_card_container {
-    flex-direction: column;
-    flex-wrap: wrap;
-  }
   .s9_card {
-    margin-bottom: 20px;
+    width: fit-content;
   }
-}
-
-@media (max-width: 576px) {
-  .image_div img {
-    height: 205px;
+  .s9_card img {
+    width: 60px;
+  }
+  .s9_card p {
+    font-size: 20px;
+  }
+  .s9_card a {
+    font-size: 10px;
   }
 }
 
@@ -267,14 +295,29 @@
     font-size: 30px;
     margin-bottom: 50px;
   }
+  .image_div img {
+    height: 250px;
+  }
   .image2_div img {
     height: 250px;
+  }
+  .s11_imgdiv img {
+    width: 100px;
   }
 }
 
 @media (max-width: 400px) {
+  .image_div img {
+    height: 200px;
+  }
   .image2_div img {
     height: 250px;
+  }
+  .s4icon img {
+    width: 60px;
+  }
+  .s11_textdiv p {
+    text-align: center;
   }
 }
 
@@ -282,7 +325,23 @@
   .image_div img {
     height: 150px;
   }
-    .image2_div img {
+  .image2_div img {
     height: 200px;
+  }
+  .s4icon {
+    display: none;
+    /* width: 60px; */
+  }
+  .s7_text_div p {
+    text-align: center;
+  }
+  .s9_main_div {
+    padding-bottom: 30px;
+  }
+  .s9_card_container {
+    flex-wrap: wrap;
+  }
+  .s9_card {
+    margin-bottom: 10px;
   }
 }
